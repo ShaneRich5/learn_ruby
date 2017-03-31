@@ -14,3 +14,9 @@ def sum(arr)
     }
     total
 end
+
+def multiply(*args)
+    result = 1
+    args.each{ |num| result *= num }
+    result
+end
